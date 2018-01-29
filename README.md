@@ -16,9 +16,6 @@ git init
 # Ajouter un fichier au suivi Git
 ````
 touch README.md
-````
-
-````
 git add ./README.md
 ````
 
@@ -41,3 +38,10 @@ git push -u origin master
 ````
 git clone 'url-du-remote' 'nom du dossier'
 ````
+# Ignorer un fichier
+````
+touch fichier-cache.txt
+touch .gitignore
+````
+
+Ajouter fichier-cache.txt dans le fichier .gitignore
