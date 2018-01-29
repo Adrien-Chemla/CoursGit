@@ -74,6 +74,7 @@ git push --set-upstream origin <nom-branche>
 git checkout ≤nom-branche>
 ````
 
+<<<<<<< HEAD
 ## Lister les branches
 ````
 git branch
