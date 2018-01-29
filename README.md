@@ -74,6 +74,7 @@ git push --set-upstream origin <nom-branche>
 git checkout ≤nom-branche>
 ````
 
+<<<<<<< HEAD
 ## Lister les branches
 ````
 git branch
@@ -89,3 +90,15 @@ git checkout -b <nom-branche>
 git branch -d <nom-branche>
 ````
 
+=======
+**Ignorer un fichier**
+./fichier-cache.txt
+
+**Ignorer un type de fichier**
+*.txt
+
+**Ignorer un fichier avec une règle**
+t*.js
+
+**Je s'appelle groot**
+>>>>>>> origin/groot
