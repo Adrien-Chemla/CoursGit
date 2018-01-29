@@ -41,5 +41,3 @@ git push -u origin master
 ````
 git clone 'url-du-remote' 'nom du dossier'
 ````
-
-
