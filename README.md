@@ -56,3 +56,23 @@ Ajouter fichier-cache.txt dans le fichier .gitignore :
 
 ** Ignorer un fichier avec une règle **
 t*.js
+
+# Créer une branch
+````
+git branch nom-branche
+````
+
+# Se déplacer sur une branche
+````
+git checkout nom-branche
+````
+
+#Créer et se dépalcer sur la branche
+````
+git checkout -b nom-branche
+````
+
+# Supprimer une branche
+````
+git branch -d nom-branche
+````
