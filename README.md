@@ -31,15 +31,15 @@ touch .gitignore
 Ajouter fichier-cache.txt dans le fichier .gitignore :
 
 > **Ignorer un fichier**
----
+> ---
 > ./fichier-cache.txt
-
+> ---
 > **Ignorer un type de fichier**
----
+> ---
 > *.txt
-
+> ---
 > **Ignorer un fichier avec une règle**
----
+> ---
 > t*.js
 
 ## Voir l'état de mon répertoire de travail
@@ -88,3 +88,4 @@ git checkout -b <nom-branche>
 ````
 git branch -d <nom-branche>
 ````
+
