@@ -94,22 +94,22 @@ git merge <nom-branche>
 git branch -d <nom-branche>
 ````
 
-#Revenir à une version antérieure d'un commit
+# Revenir à une version antérieure d'un commit
 `````
 git revert <id_commit>
 `````
 
-#Annuler un commit
+# Annuler un commit
 `````
 git reset <id_commit>
 `````
 
-#Effacer les modifications jusqu'à un commit précis
+# Effacer les modifications jusqu'à un commit précis
 `````
 git reset --hard <id_commit>
 `````
 
-#Effacer un commit en gardant les modifications dans l'espace de travail
+# Effacer un commit en gardant les modifications dans l'espace de travail
 `````
 git revert <id_commit>
 `````
