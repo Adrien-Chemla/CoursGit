@@ -1,9 +1,9 @@
-# Configuer son nom 
+# Configurer son nom 
 ````
 git config --global user.name
 ````
 
-# Configuer son mail 
+# Configurer son mail 
 ````
 git config --global user.email
 ````
@@ -24,7 +24,7 @@ git add ./README.md
 git status
 ````
 
-# Connecter le repertoir local avec le repertoire en ligne
+# Connecter le répertoire local avec le répertoire en ligne
 ````
 git remote add origin 'url-du-remote'
 ````
