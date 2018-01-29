@@ -33,11 +33,11 @@ Ajouter fichier-cache.txt dans le fichier .gitignore :
 > **Ignorer un fichier**
 > ---
 > ./fichier-cache.txt
-> ---
+
 > **Ignorer un type de fichier**
 > ---
 > *.txt
-> ---
+
 > **Ignorer un fichier avec une règle**
 > ---
 > t*.js
@@ -74,6 +74,7 @@ git push --set-upstream origin <nom-branche>
 git checkout ≤nom-branche>
 ````
 
+<<<<<<< HEAD
 ## Lister les branches
 ````
 git branch
@@ -84,8 +85,12 @@ git branch
 git checkout -b <nom-branche>
 ````
 
+## Fusionner une branche
+````
+git merge <nom-branche>
+````
+
 ## Supprimer une branche
 ````
 git branch -d <nom-branche>
 ````
-
