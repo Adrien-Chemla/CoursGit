@@ -155,6 +155,6 @@ git diff
 # Fusionner des versions parallèles
 ## Rebase une branche sur une autre
  ````
-git checkout <nombranche> 
-git rebase master
+git checkout master
+git rebase <nombranche>
 ````
