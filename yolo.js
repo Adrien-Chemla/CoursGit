@@ -1,2 +1,8 @@
 alert("Coucou");
-alert("toto")
+
+alert("Lolilo");
+alert("toto");
+
+alert("a");
+alert("b");
+alert("c");

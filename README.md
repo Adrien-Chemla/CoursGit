@@ -110,6 +110,11 @@ git checkout -b <nom-branche>
 git merge <nom-branche>
 ````
 
+## Créer une branche à partir d'un commit ancien
+````
+git branch <nom-branche> <id-commit>
+````
+
 ## Supprimer une branche
 ````
 git branch -d <nom-branche>
