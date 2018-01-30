@@ -137,3 +137,11 @@ git reset --hard <id_commit>
 `````
 git reset --keep <id_commit>
 `````
+
+# Marquer un commit
+## Nommer une version
+Nomme le commit actuel
+git tag <tagname>
+git push origin <tagname>
+## Récupérer une version nommée
+git revert <tagname>
