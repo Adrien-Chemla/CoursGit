@@ -1,3 +1,12 @@
+# Comprendre et expliquer la différence en gestion centralisée et décentralisée
+La gestion centralisée (type SVN) est le principe de partager sur un serveur les données. Les utilisateurs feront alors une copie de ces fichiers avant d'en mettre de nouveaux en ligne. Tandis que la gestion décentralisée (git) est le principe de se partager les données entre chaque utilisateurs. 
+
+## Comprendre la notion de commit
+Un commit est le fait de rajouter des données sur le contenu déjà existant afin de le partager avec tous les membres du projet.
+
+## Citer des concurrents de git
+SVN, Mercurial
+
 # Configuration
 ## Configurer son nom 
 ````
