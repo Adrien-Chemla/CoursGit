@@ -1,1 +1,2 @@
 alert("Coucou");
+alert("toto")
