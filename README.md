@@ -137,3 +137,24 @@ git reset --hard <id_commit>
 `````
 git reset --keep <id_commit>
 `````
+
+# Marquer un commit
+## Nommer une version
+Nomme le commit actuel
+git tag <tagname>
+git push origin <tagname>
+## Récupérer une version nommée
+git revert <tagname>
+
+# Historique des versions
+## Voir les différences entre deux commits
+````
+git diff
+````
+
+# Fusionner des versions parallèles
+## Rebase une branche sur une autre
+ ````
+git checkout <nombranche> 
+git rebase master
+````
