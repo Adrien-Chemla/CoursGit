@@ -7,6 +7,18 @@ Un commit est le fait de rajouter des données sur le contenu déjà existant af
 ## Citer des concurrents de git
 SVN, Mercurial
 
+# Les zones d'un projet Git
+## Remise
+Un endroit où remiser les modifications pendant que l'on travaille sur autre chose.
+## Espace de travail
+Espace de travail local.
+## Index
+Zone de transit qui maintient un instantané de l'espace de travail qui servira de base pour le prochain commit.
+## Dépôt local
+Sous répertoire nommé .git qui contient tous les fichiers nécessaires au référentiel. Branches typiques: master, fonction-x, correctif-y
+## Dépôt distant
+Version du projet qui est hébergé sur le réseau ou internet, pour mettre toutes les modifications à la disposition d'autres développeurs. Par défaut "origin". Branche typique: master, fonction-x-partagée, version-y.
+
 # Configuration
 ## Configurer son nom 
 ````
