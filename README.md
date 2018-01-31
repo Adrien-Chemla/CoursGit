@@ -100,7 +100,7 @@ git checkout ≤nom-branche>
 git branch
 ````
 
-## Créer et se dépalcer sur la branche
+## Créer et se déplacer sur la branche
 ````
 git checkout -b <nom-branche>
 ````
